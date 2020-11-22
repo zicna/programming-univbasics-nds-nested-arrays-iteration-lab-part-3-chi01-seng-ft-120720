@@ -9,7 +9,7 @@ def join_nested_strings(src)
     ii = 0
     while src[i].length > ii do 
       if (src[i][ii].class == String)
-        new_string.concat(src[i][ii])
+        new_string.concat(src[i][ii], ' ')
       end
       ii +=1
     end
