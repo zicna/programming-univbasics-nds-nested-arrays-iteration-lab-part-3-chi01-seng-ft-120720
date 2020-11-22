@@ -15,6 +15,6 @@ def join_nested_strings(src)
     end
     i += 1
   end
-new_string
+return new_string
 end
 
